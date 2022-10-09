@@ -1,6 +1,6 @@
-package learn.oauth.sociallogin.service.login;
+package learn.oauth.sociallogin.api.service.login;
 
-import learn.oauth.sociallogin.repository.MemberRepository;
+import learn.oauth.sociallogin.api.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

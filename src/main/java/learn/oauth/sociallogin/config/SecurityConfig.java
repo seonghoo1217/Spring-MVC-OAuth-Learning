@@ -2,8 +2,8 @@ package learn.oauth.sociallogin.config;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import learn.oauth.sociallogin.repository.MemberRepository;
-import learn.oauth.sociallogin.service.login.ApiLoginService;
+import learn.oauth.sociallogin.api.repository.MemberRepository;
+import learn.oauth.sociallogin.api.service.login.ApiLoginService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

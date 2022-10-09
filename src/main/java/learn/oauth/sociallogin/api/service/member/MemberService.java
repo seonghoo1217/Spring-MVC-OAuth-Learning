@@ -1,11 +1,11 @@
-package learn.oauth.sociallogin.service.member;
+package learn.oauth.sociallogin.api.service.member;
 
 
 import learn.oauth.sociallogin.exception.member.MemberException;
 import learn.oauth.sociallogin.exception.member.MemberExceptionType;
 import learn.oauth.sociallogin.model.dto.MemberDTO;
 import learn.oauth.sociallogin.model.entity.Member;
-import learn.oauth.sociallogin.repository.MemberRepository;
+import learn.oauth.sociallogin.api.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.security.crypto.password.PasswordEncoder;

@@ -1,4 +1,4 @@
-package learn.oauth.sociallogin.repository;
+package learn.oauth.sociallogin.api.repository;
 
 
 import learn.oauth.sociallogin.model.entity.Member;

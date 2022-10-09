@@ -1,4 +1,4 @@
-package learn.oauth.sociallogin.service.jwt;
+package learn.oauth.sociallogin.api.service.jwt;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

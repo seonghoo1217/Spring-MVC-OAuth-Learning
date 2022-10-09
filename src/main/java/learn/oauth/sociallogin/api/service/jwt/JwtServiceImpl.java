@@ -1,11 +1,11 @@
-package learn.oauth.sociallogin.service.jwt;
+package learn.oauth.sociallogin.api.service.jwt;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nimbusds.jose.Algorithm;
 import com.nimbusds.jwt.JWT;
 import learn.oauth.sociallogin.exception.member.MemberException;
 import learn.oauth.sociallogin.exception.member.MemberExceptionType;
-import learn.oauth.sociallogin.repository.MemberRepository;
+import learn.oauth.sociallogin.api.repository.MemberRepository;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;

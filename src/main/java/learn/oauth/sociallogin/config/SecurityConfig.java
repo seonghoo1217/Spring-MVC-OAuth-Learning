@@ -1,3 +1,4 @@
+/*
 package learn.oauth.sociallogin.config;
 
 
@@ -97,3 +98,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 }
 
+*/

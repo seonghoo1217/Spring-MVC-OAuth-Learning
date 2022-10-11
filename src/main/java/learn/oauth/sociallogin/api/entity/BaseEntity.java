@@ -1,4 +1,4 @@
-package learn.oauth.sociallogin.model.entity;
+package learn.oauth.sociallogin.api.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

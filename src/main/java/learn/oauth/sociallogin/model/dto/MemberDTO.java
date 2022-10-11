@@ -1,6 +1,7 @@
 package learn.oauth.sociallogin.model.dto;
 
 import learn.oauth.sociallogin.model.entity.Member;
+import learn.oauth.sociallogin.model.entity.Role;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

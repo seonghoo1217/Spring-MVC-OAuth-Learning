@@ -40,4 +40,8 @@ public class UserRefreshToken {
         this.username = username;
         this.refreshToken = refreshToken;
     }
+
+    public void setRefreshToken(String refreshToken){
+        this.refreshToken=refreshToken;
+    }
 }

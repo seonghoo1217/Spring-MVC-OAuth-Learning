@@ -1,14 +1,13 @@
 package learn.oauth.sociallogin.oauth.service;
 
 import learn.oauth.sociallogin.api.entity.user.User;
-import learn.oauth.sociallogin.api.entity.user.dto.UserDTO;
 import learn.oauth.sociallogin.api.repository.user.UserRepository;
 import learn.oauth.sociallogin.oauth.entity.ProviderType;
 import learn.oauth.sociallogin.oauth.entity.RoleType;
 import learn.oauth.sociallogin.oauth.entity.UserPrincipal;
+import learn.oauth.sociallogin.oauth.exception.OAuthProviderMissMatchException;
 import learn.oauth.sociallogin.oauth.info.OAuth2UserInfo;
 import learn.oauth.sociallogin.oauth.info.OAuth2UserInfoFactory;
-import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
 import org.springframework.security.core.AuthenticationException;
